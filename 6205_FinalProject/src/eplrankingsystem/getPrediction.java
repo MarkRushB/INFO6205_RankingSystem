@@ -48,7 +48,7 @@ public class getPrediction {
             NormalDistribution normAway =new NormalDistribution(meanAwayGoal, varAwayGoal);
             int homeGoal = Math.round((float) meanHomeGoal);
             int awayGoal = Math.round((float) normAway.getMean());
-            char FTR;
+            char FTR
             if(homeGoal > awayGoal){
                 FTR = 'H';
                 match.getHome().setWin(match.getHome().getWin() + 1);
