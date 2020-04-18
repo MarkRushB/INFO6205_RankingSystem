@@ -14,7 +14,6 @@ public class Team {
     private int lose;
     private int draw;
     private int rankPoint;
-    private ArrayList<Match> teamMatchlist;
     private ArrayList<Match> homeMatchList;
     private ArrayList<Match> awayMatchList;
 
@@ -25,7 +24,6 @@ public class Team {
         this.lose = lose;
         this.draw = draw;
         this.rankPoint = rankPoint;
-        this.teamMatchlist = new ArrayList<Match>();
         this.homeMatchList = new ArrayList<Match>();
         this.awayMatchList = new ArrayList<Match>();
     }
@@ -42,11 +40,11 @@ public class Team {
         this.win = 0;
         this.lose = 0;
         this. draw = 0;
-        this.teamMatchlist = new ArrayList<Match>();
     }
 
     public Team() {
-        //need to be finished
+        this.homeMatchList = new ArrayList<Match>();
+        this.awayMatchList = new ArrayList<Match>();
     }
 
     public String getTeamName() {
@@ -89,16 +87,8 @@ public class Team {
         this.rankPoint = rankPoint;
     }
 
-    public ArrayList<Match> getTeamMatchlist() {
-        return teamMatchlist;
-    }
-
-    public void setTeamMatchlist(ArrayList<Match> teamMatchlist) {
-        this.teamMatchlist = teamMatchlist;
-    }
-
     public ArrayList<Match> getHomeMatchList() {
-        return homeMatchList;
+        return this.homeMatchList;
     }
 
     public void setHomeMatchList(ArrayList<Match> homeMatchList) {

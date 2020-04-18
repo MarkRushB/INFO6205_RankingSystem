@@ -2,6 +2,7 @@ package eplbasicinfo;
 
 /**
  * @author Sichen & Xianling
+ * this Match Class includes 5 attributes: home, away, FTGH, FTAG, FTR
  */
 
 public class Match {
@@ -11,9 +12,6 @@ public class Match {
     private int FTAG;   //FTAG: Full Time Away Team Goals
     private char FTR;   //FTR: Full Time Result (H=Home Win, D=Draw, A=Away Win)
 
-    public Match() {
-
-    }
 
     public Match(Team home, Team away, int FTHG, int FTAG, char FTR) {
         this.home = home;
@@ -21,6 +19,11 @@ public class Match {
         this.FTHG = FTHG;
         this.FTAG = FTAG;
         this.FTR = FTR;
+    }
+
+    public Match(Team home, Team away) {
+        this.home = home;
+        this.away = away;
     }
 
     public Team getHome() {

@@ -2,7 +2,10 @@ package eplrankingsystem;
 
 import eplbasicinfo.Match;
 import eplbasicinfo.Team;
-
+/**
+ * @author Sichen & Xianling
+ * This class provide 4 diff functions to calculate parameters we need
+ */
 public class Calculate {
     //calculate the mean of home goals
     public static double getHomeMean(Team homeTeam, Team awayTeam) {
@@ -10,7 +13,7 @@ public class Calculate {
         double sumOfHomeGoal = 0;
         double meanOfHomeGoal = 0;
         for (Match match : homeTeam.getHomeMatchList()) {
-            if (match.getAway().getTeamName() == awayTeam.getTeamName()) {
+            if (match.getAway().getTeamName().equals(awayTeam.getTeamName()) ) {
                 sumOfHomeGoal += match.getFTHG();
                 count++;
             }
@@ -25,7 +28,7 @@ public class Calculate {
         double sumOfAwayGoal = 0;
         double meanOfAwayGoal = 0;
         for (Match match : homeTeam.getHomeMatchList()) {
-            if (match.getAway().getTeamName() == awayTeam.getTeamName()) {
+            if (match.getAway().getTeamName().equals(awayTeam.getTeamName()) ) {
                 sumOfAwayGoal += match.getFTAG();
                 count++;
             }
@@ -40,7 +43,7 @@ public class Calculate {
         double stdOfHomeGoal = 0;
         double varOfHomeGoal = 0;
         for (Match match : homeTeam.getHomeMatchList()) {
-            if (match.getAway().getTeamName() == awayTeam.getTeamName()) {
+            if (match.getAway().getTeamName().equals(awayTeam.getTeamName()) ) {
                 stdOfHomeGoal += Math.pow(match.getFTHG() - getHomeMean(homeTeam, awayTeam), 2);
                 count++;
             }
@@ -55,7 +58,7 @@ public class Calculate {
         double stdOfAwayGoal = 0;
         double varOfAwayGoal = 0;
         for (Match match : homeTeam.getHomeMatchList()) {
-            if (match.getAway().getTeamName() == awayTeam.getTeamName()) {
+            if (match.getAway().getTeamName().equals(awayTeam.getTeamName()) ) {
                 stdOfAwayGoal += Math.pow(match.getFTAG() - getAwayMean(homeTeam, awayTeam), 2);
                 count++;
             }

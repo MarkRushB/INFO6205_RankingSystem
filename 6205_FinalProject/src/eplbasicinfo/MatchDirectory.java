@@ -1,7 +1,10 @@
 package eplbasicinfo;
 
 import java.util.ArrayList;
-
+/**
+ * @author Sichen & Xianling
+ * this MatchDirectory Class includes 1 attributs: matchDirectory
+ */
 public class MatchDirectory {
     private ArrayList<Match> matchDirectory;
 

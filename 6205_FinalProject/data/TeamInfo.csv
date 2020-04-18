@@ -1,27 +1,21 @@
-Team,Win,Draw,Lost,Total,Point
-Man City,82,9,13,104,255
-Liverpool,78,20,7,105,254
-Man United,56,24,25,105,192
-Chelsea,56,22,27,105,190
-Tottenham,57,18,30,105,189
-Arsenal,49,26,29,104,173
-Leicester,43,23,39,105,152
-Everton,38,26,41,105,140
-Burnley,36,25,44,105,133
-Crystal Palace,35,27,43,105,132
-Newcastle,33,25,47,105,124
-West Ham,32,25,48,105,121
-Watford,31,25,49,105,118
-Bournemouth,31,23,51,105,116
-Southampton,26,31,48,105,109
-Brighton,24,33,48,105,105
-Wolves,26,22,19,67,100
-Huddersfield,12,17,47,76,53
-Sheffield United,11,10,7,28,43
-Cardiff,10,4,24,38,34
-Swansea,8,9,21,38,33
-Stoke,7,12,19,38,33
-West Brom,6,13,19,38,31
-Fulham,7,5,26,38,26
-Aston Villa,7,4,17,28,25
-Norwich,5,6,18,29,21
+Team,Win,Draw,Lose,Score
+Liverpool,27,1,1,82
+West Ham,7,6,16,27
+Norwich,5,6,18,21
+Man City,18,3,7,57
+Bournemouth,7,6,16,27
+Sheffield United,11,10,7,43
+Burnley,11,6,12,39
+Southampton,10,4,15,34
+Crystal Palace,10,9,10,39
+Everton,10,7,12,37
+Watford,6,9,14,27
+Brighton,6,11,12,29
+Tottenham,11,8,10,41
+Aston Villa,7,4,17,25
+Leicester,16,5,8,53
+Wolves,10,13,6,43
+Newcastle,9,8,12,35
+Arsenal,9,13,6,40
+Man United,12,9,8,45
+Chelsea,14,6,9,48
