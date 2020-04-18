@@ -1,21 +1,27 @@
-Team,Win,Draw,Lose,Score
-Liverpool,27,1,1,82
-West Ham,7,6,16,27
-Norwich,5,6,18,21
-Man City,18,3,7,57
-Bournemouth,7,6,16,27
-Sheffield United,11,10,7,43
-Burnley,11,6,12,39
-Southampton,10,4,15,34
-Crystal Palace,10,9,10,39
-Everton,10,7,12,37
-Watford,6,9,14,27
-Brighton,6,11,12,29
-Tottenham,11,8,10,41
-Aston Villa,7,4,17,25
-Leicester,16,5,8,53
-Wolves,10,13,6,43
-Newcastle,9,8,12,35
-Arsenal,9,13,6,40
-Man United,12,9,8,45
-Chelsea,14,6,9,48
+Team,Win,Draw,Lost,Total,Point
+Liverpool,27,1,1,29,82
+West Ham,7,6,16,29,27
+Norwich,5,6,18,29,21
+Man City,18,3,7,28,57
+Bournemouth,7,6,16,29,27
+Sheffield United,11,10,7,28,43
+Burnley,11,6,12,29,39
+Southampton,10,4,15,29,34
+Crystal Palace,10,9,10,29,39
+Everton,10,7,12,29,37
+Watford,6,9,14,29,27
+Brighton,6,11,12,29,29
+Tottenham,11,8,10,29,41
+Aston Villa,7,4,17,28,25
+Leicester,16,5,8,29,53
+Wolves,10,13,6,29,43
+Newcastle,9,8,12,29,35
+Arsenal,9,13,6,28,40
+Man United,12,9,8,29,45
+Chelsea,14,6,9,29,48
+Huddersfield,0,0,0,0,0
+Cardiff,0,0,0,0,0
+Swansea,0,0,0,0,0
+Stoke,0,0,0,0,0
+West Brom,0,0,0,0,0
+Fulham,0,0,0,0,0

@@ -42,7 +42,7 @@ public class AddData {
             int win = Integer.parseInt(getTeamNextLine[1]);
             int lose = Integer.parseInt(getTeamNextLine[3]);
             int draw = Integer.parseInt(getTeamNextLine[2]);
-            int rankPoint = Integer.parseInt(getTeamNextLine[4]);
+            int rankPoint = Integer.parseInt(getTeamNextLine[5]);
             Team team = new Team(name, win, lose, draw, rankPoint);
             teamDirectory.getTeamDirectory().add(team);
 
@@ -70,6 +70,7 @@ public class AddData {
 
             getMatchNextLine = readMatch.getNextRow();
         }
+
         //Add the rest of Matches unplayed
         while(getUnplayedNextLine != null){
             Team homeTeam = new Team();

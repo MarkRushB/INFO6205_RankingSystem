@@ -12,6 +12,7 @@ public class getRank {
     //generate rank and print
     public static void getRank(TeamDirectory teamDirectory){
         System.out.println("-------------------Rank----------------------");
+
         Comparator<Team> rank = new Comparator<Team>() {
             @Override
             public int compare(Team o1, Team o2) {
@@ -24,8 +25,10 @@ public class getRank {
             }
         };
         Collections.sort(teamDirectory.getTeamDirectory() ,rank);
-        for (Team team : teamDirectory.getTeamDirectory()) {
-            System.out.println(team.getTeamName() + "|" + team.getWin()+"|"+team.getLose()+"|"+team.getDraw()+"|"+team.getRankPoint());
-        }
+        int n=1;
+            for (Team team : teamDirectory.getTeamDirectory()) {
+            System.out.println(n + ":" + team.getTeamName() + "|" + team.getWin()+"|"+team.getLose()+"|"+team.getDraw()+"|"+team.getRankPoint());
+            n++;
+            }
     }
 }

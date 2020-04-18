@@ -105,7 +105,7 @@ public class getProbOfWin {
             for (Team awayteam : td.getTeamDirectory()) {
                 if(hometeam != awayteam){
                     homeTeamName = getProbOfWin.getProbOfWin(hometeam, awayteam) + "";
-                    System.out.println(hometeam.getTeamName() + " | " + awayteam.getTeamName() +" | Probability:"+ homeTeamName);
+                    System.out.println("P ("+ hometeam.getTeamName() + " , " + awayteam.getTeamName() +" ) ="+ homeTeamName);
                 }
             }
         }

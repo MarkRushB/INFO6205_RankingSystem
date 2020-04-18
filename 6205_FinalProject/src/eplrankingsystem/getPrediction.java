@@ -124,10 +124,10 @@ public class getPrediction {
 
     //print result
     public static void getPredResult(ArrayList<Match> up){
-        System.out.println("-------------------Prediction of the Match!----------------------");
+        System.out.println("------------Match Result Simulation----------------------");
         for (Match match : up) {
             match = getPrediction.predict(match);
-            System.out.println(match.getHome().getTeamName() + "|" + match.getAway().getTeamName() + "|" + match.getFTHG() + "|"+ match.getFTAG()+"|"+ match.getFTR());
+            System.out.println(match.getHome().getTeamName() + " " + match.getFTHG() + ":"+ match.getFTAG()+ " " + match.getAway().getTeamName() + " | "+match.getFTR());
         }
     }
 }
